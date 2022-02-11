@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+<form id="Formulario"; action="recibeform.html";method = "post" style ="border: 1px #fabfb7 solid; margin: 30px ;padding: 30px;background-color: #ffda9e;">
+  
+    
+   <h2>Formulario de registro</h2>
+
+    <fieldset>
+
+        <legend>Datos del nuevo usuario</legend>
+
+        <div>
+            <input id="formulario_nombre" name="nombre" pattern ="[A-Za-z0-0]+" required type="text" value placeholder="Nombre"/>
+            <input id="formulario_Apellido" name="apellido" pattern ="[A-Za-z0-0]+" required type="text" value placeholder="Apellido"/>
+            <input id="formulario_Email" name="nombre" pattern = "+@[a-zA-Z0-9]" required type="email" value placeholder="Email"/>
+
+            <p></p>
+
+            <input type="tel" value="" required placeholder="Telefono de contacto"  id="tel1" name="tel"/>
+            <input id="formulario_direccion" name="direcciion" pattern = "+@[a-zA-Z0-9]" required type="direccion" value placeholder="direccion"/>
+       
+        </div>
+
+        <p></p>
+
+        <div> 
+            <input type="submit" value="Continuar"/>
+        </div>
+
+    </fieldset>
+
+    <p></p>
+
+</form>
+
+<hr/>
+
+<table border="1">
+    <thead>
+      <tr>
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+        <th>Columna 3</th>
+        <th>Columna 4</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr>
+        <td colspan="2">Celda de 2 columnas</td>
+        <td>Celda</td>
+        <td>Celda</td>
+        
+      </tr>
+      <tr>
+        <td>Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Celda de 2 filas</td>
+        <td>Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+      </tr>
+      <tr>
+        <td>Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+      </tr>
+      
+    </tbody>
+
+    <caption>
+      Tabla:
+    </caption>
+  </table>
